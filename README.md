@@ -3,10 +3,10 @@ Intelligent HR chatbot using Flask and OpenAI
 ## Screenshots
 
 ### Interface
-![Interface](screenshots/interface.png)
+![Interface](screenshots/interface.PNG)
 
-### Conversation
-![Conversation](screenshots/conversation.png)
+### Fonctionnement interne
+![Conversation](screenshots/fonctionnement_interne.PNG)
 
 ### API Test
-![Postman](screenshots/postman_test.png)
+![Postman](screenshots/postman_test.PNG)
