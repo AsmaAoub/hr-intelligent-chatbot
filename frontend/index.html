@@ -1,19 +1,46 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-<title>HR Chatbot</title>
+
+<title>Chatbot RH</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#f5f5f5;
+}
+
+#chatbox{
+width:400px;
+height:400px;
+border:1px solid #ccc;
+overflow-y:scroll;
+padding:10px;
+background:white;
+}
+
+.user{
+color:blue;
+}
+
+.bot{
+color:green;
+}
+
+</style>
+
 </head>
 
 <body>
 
-<h2>HR Chatbot</h2>
+<h2>Chatbot RH</h2>
 
 <div id="chatbox"></div>
 
-<input type="text" id="message">
+<input type="text" id="message" placeholder="Tapez votre question">
 
-<button onclick="sendMessage()">Send</button>
+<button onclick="sendMessage()">Envoyer</button>
 
 <script src="script.js"></script>
 
